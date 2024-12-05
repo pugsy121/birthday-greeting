@@ -58,3 +58,16 @@ button:hover {
     margin-top: 20px;
     font-size: 1.2em;
 }
+.confetti {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    opacity: 0.8;
+    animation: fall linear forwards;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
