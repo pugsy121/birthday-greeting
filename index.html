@@ -1,32 +1,19 @@
-body {
-    background-color: #f0f8ff;
-    font-family: 'Arial', sans-serif;
-    text-align: center;
-    padding: 50px;
-}
-
-.container {
-    border: 2px solid #ff69b4;
-    border-radius: 10px;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-
-button {
-    background-color: #ff69b4;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-button:hover {
-    background-color: #ff1493;
-}
-
-.hidden {
-    display: none;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Happy Birthday! 🎉</h1>
+        <button id="revealMessage">Click for a Surprise!</button>
+        <div id="message" class="hidden">
+            <p>Wishing you a day filled with love, joy, and all your favorite things! 🎂🥳</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
